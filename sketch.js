@@ -61,7 +61,10 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-  
+  text('Press Down arrow once to Drop Package',220,155);
+  fill('white');
+ 
+ 
  
   
   drawSprites();
